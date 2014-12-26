@@ -4,7 +4,7 @@ var http = require('http').Server(app);
 var io = require('socket.io')(http);
 var cont = 0;
 
-app..listen(process.env.PORT || 5000)
+app.listen(process.env.PORT || 5000)
 
 //Le pasamos el indice a la aplicación
 app.get('/', function(req, res){
